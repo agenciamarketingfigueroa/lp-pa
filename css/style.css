@@ -1216,6 +1216,10 @@ ul {
         width: 100%;
     }
 
+    .btn {
+        justify-content: center;
+    }
+
     .hero-buttons {
         flex-direction: column;
         align-items: center;
@@ -1224,6 +1228,44 @@ ul {
     .hero-buttons .btn {
         width: 100%;
         max-width: 320px;
+    }
+
+    .sobre-content > .btn,
+    .contato-info > .btn {
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .specialty-item,
+    .contato-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .servico-card,
+    .audience-card {
+        text-align: center;
+    }
+
+    .servico-icon {
+        margin: 0 auto 20px;
+    }
+
+    .audience-icon {
+        margin: 0 auto 12px;
+    }
+
+    .servico-link {
+        justify-content: center;
+    }
+
+    .rede-link {
+        justify-content: center;
+    }
+
+    .rede-arrow {
+        margin-left: 0;
     }
 
     .footer-content {

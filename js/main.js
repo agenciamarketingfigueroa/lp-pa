@@ -1,5 +1,5 @@
 // ========================================
-// Dra. Patricia Abreu - Landing Page JS
+// Dra. Patrícia Abreu - Landing Page JS
 // ========================================
 
 document.addEventListener('DOMContentLoaded', () => {

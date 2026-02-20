@@ -1,4 +1,4 @@
-/* ========================================
+﻿/* ========================================
    Dra. Patricia Abreu - Landing Page
    Paleta: #845973, #E9E7E0, #1D1D1C
    ======================================== */
@@ -534,7 +534,7 @@ ul {
 }
 
 /* ========================================
-   SERVIÇOS SECTION
+   SERVIÃ‡OS SECTION
    ======================================== */
 .servicos {
     background: var(--color-bg-light);
@@ -602,7 +602,7 @@ ul {
    SKINPEDS SECTION
    ======================================== */
 .skinpeds {
-    background: var(--color-text-dark);
+    background: #5A2D3F;
     color: var(--color-text-light);
 }
 
@@ -1316,3 +1316,5 @@ ul {
         font-size: 1rem;
     }
 }
+
+

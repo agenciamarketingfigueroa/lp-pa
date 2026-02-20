@@ -602,7 +602,7 @@ ul {
    SKINPEDS SECTION
    ======================================== */
 .skinpeds {
-    background: #5A2D3F;
+    background: #43212f;
     color: var(--color-text-light);
 }
 
@@ -1316,5 +1316,6 @@ ul {
         font-size: 1rem;
     }
 }
+
 
 

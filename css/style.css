@@ -744,6 +744,10 @@ ul {
     box-shadow: var(--shadow-md);
 }
 
+.depoimento-card-wide {
+    grid-column: 1 / -1;
+}
+
 .depoimento-stars {
     display: flex;
     gap: 4px;

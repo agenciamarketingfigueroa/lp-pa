@@ -703,7 +703,10 @@ ul {
 .skinpeds-ctas {
     display: flex;
     gap: 16px;
-    flex-wrap: wrap;
+}
+
+.skinpeds-ctas .btn {
+    white-space: nowrap;
 }
 
 .skinpeds-photo {

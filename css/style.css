@@ -829,6 +829,43 @@ ul {
     color: #999;
 }
 
+.depoimento-card-case {
+    padding-bottom: 24px;
+}
+
+.depoimento-case-gallery {
+    margin-top: 24px;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
+}
+
+.case-photo {
+    margin: 0;
+    background: var(--color-white);
+    border-radius: var(--radius-sm);
+    padding: 10px;
+    box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.08);
+}
+
+.case-photo img {
+    width: 100%;
+    height: 260px;
+    border-radius: var(--radius-sm);
+    object-fit: cover;
+    display: block;
+}
+
+.case-photo figcaption {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 600;
+    color: #666;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+}
+
 /* ========================================
    REDES SOCIAIS / LINK HUB
    ======================================== */
@@ -1275,6 +1312,10 @@ ul {
     }
 
     .depoimentos-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .depoimento-case-gallery {
         grid-template-columns: 1fr;
     }
 

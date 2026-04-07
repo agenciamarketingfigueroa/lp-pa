@@ -70,6 +70,10 @@ ul {
     list-style: none;
 }
 
+[hidden] {
+    display: none !important;
+}
+
 /* Container */
 .container {
     max-width: 1200px;
@@ -1456,6 +1460,5 @@ ul {
         height: 280px;
     }
 }
-
 
 
